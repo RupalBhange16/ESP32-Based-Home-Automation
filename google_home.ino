@@ -12,20 +12,20 @@
        #define NDEBUG
 #endif 
 
-#define WIFI_SSID         "Rupal’s iPhone"       // Enter WiFi Name
-#define WIFI_PASS         "12345678"        // Enter WiFi Password
-#define APP_KEY           "e1a2a492-6c6d-405e-b0ed-2bef365af24e"          // Enter APP-KEY 
-#define APP_SECRET        "1e404beb-4e66-40c5-a05d-5b70be4b0fbe-3713239c-d2ae-4d5f-8043-cdd32189c625"   // Enter APP-SECRET
+#define WIFI_SSID         "your wifi name "      //Enter WiFi Name
+#define WIFI_PASS         "wifi password"      //Enter WiFi Password
+#define APP_KEY           "xxxxxxxxxxxxxxxxxxxxxxxxx"                  //Enter APP-KEY 
+#define APP_SECRET        "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"     //Enter APP-SECRET
 
-// Enter the device IDs here
-#define lockDevice_ID   "6729fa11056fcc0dd4b7175e"  // Lock ID
-#define bulbDevice_ID_1 "6729fa3e5889569a22b8e9ba"  // Bulb 1 ID
-#define bulbDevice_ID_2 "6729fdef5889569a22b8ed14"  // Bulb 2 ID
+//Enter the device IDs here
+#define device_ID_1   "xxxxxxxxxxxxxxxxxxxxxxxx"  //SWITCH 1 ID
+#define device_ID_2   "xxxxxxxxxxxxxxxxxxxxxxxx"  //SWITCH 2 ID
+#define device_ID_3   "xxxxxxxxxxxxxxxxxxxxxxxx"  //SWITCH 3 ID
 
 // Define the GPIO connected with Relays
-#define LockRelayPin   27   // Relay for Lock
-#define BulbRelayPin1  26    // Relay for Bulb 1
-#define BulbRelayPin2  25    // Relay for Bulb 2
+#define LockRelayPin   <Pin-1>   // Relay for Lock
+#define BulbRelayPin1  <Pin-2>    // Relay for Bulb 1
+#define BulbRelayPin2  <Pin-3>    // Relay for Bulb 2
 
 #define wifiLed   2    // LED to indicate WiFi connection
 
